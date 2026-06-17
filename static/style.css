@@ -1,0 +1,91 @@
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* GRID STAT */
+.stats {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* CARD STAT */
+.card-stat {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card-stat:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTON */
+.btn {
+    background: #ff69b4;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff85c1;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff0f5; /* pink pastel */
+}
+
+/* navbar */
+.navbar {
+    background: #ffb6c1;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin-right: auto;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* container */
+.container {
+    padding: 20px;
+}
+
+/* card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

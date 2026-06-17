@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="hero">
+
+    <h1>🌸 Dashboard Populasi Kalimantan Timur</h1>
+
+    <p class="subtitle">
+        Visualisasi data kependudukan berbasis peta interaktif menggunakan Flask + Folium
+    </p>
+
+    <div class="info-box">
+
+        <p>
+            📍 <b>Kalimantan Timur</b> adalah salah satu provinsi di Indonesia yang terletak di bagian timur Pulau Kalimantan.
+            Provinsi ini memiliki ibu kota di <b>Samarinda</b> dan dikenal sebagai pusat industri, pertambangan,
+            serta wilayah strategis pembangunan Ibu Kota Nusantara (IKN).
+        </p>
+
+        <p>
+            📊 Seluruh data populasi yang ditampilkan pada dashboard ini bersumber dari
+            <b>Badan Pusat Statistik (BPS)</b> tahun terbaru yang tersedia pada tingkat kabupaten/kota di Kalimantan Timur.
+        </p>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="card-stat">
+            <h2>📊 Data Interaktif</h2>
+            <p>
+                Menyajikan data populasi penduduk berdasarkan kabupaten/kota di Kalimantan Timur
+                yang bersumber dari <b>BPS (Badan Pusat Statistik)</b>.
+                Data divisualisasikan secara dinamis agar mudah dipahami dalam bentuk digital.
+            </p>
+        </div>
+
+        <div class="card-stat">
+            <h2>🗺️ Peta Digital</h2>
+            <p>
+                Representasi geografis Kalimantan Timur menggunakan sistem peta interaktif.
+                Setiap wilayah ditandai berdasarkan jumlah populasi sehingga memudahkan analisis persebaran penduduk.
+            </p>
+        </div>
+
+    </div>
+
+    <a href="/map" class="btn">Lihat Peta 🗺️</a>
+
+</div>
+
+{% endblock %}
